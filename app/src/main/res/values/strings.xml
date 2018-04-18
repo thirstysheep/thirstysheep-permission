@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">动态权限申请</string>
+    <string name="perm_apply_title">权限申请</string>
+    <string name="perm_apply_msg">相机权限、存储权限为必选项，为保证您能够正常使用本APP，请允许这些权限。</string>
+    <string name="perm_setting_msg">相机权限、存储权限为必选项，为保证您能够正常使用本APP，请到设置->应用->权限中开启。</string>
+    <string name="apply">申请</string>
+    <string name="goto_setting">去设置</string>
+    <string name="cancel">取消</string>
+    <string name="welcome">已经成功申请所需的权限，开始你的项目!</string>
+</resources>
