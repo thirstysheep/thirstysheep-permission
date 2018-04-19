@@ -3,6 +3,7 @@ package thirstysheep.permission
 import android.app.Activity
 import android.app.AlertDialog
 import android.content.Intent
+import android.content.res.Configuration
 import android.net.Uri
 import android.os.Bundle
 import android.provider.Settings
@@ -163,6 +164,15 @@ class PageStartActivity : AppCompatActivity() {
         super.onDestroy()
         Util.disposeSubscribe(mShowViewDis!!)
     }
+
+/*    override fun onConfigurationChanged(newConfig: Configuration) {
+        super.onConfigurationChanged(newConfig)
+        if (this.resources.configuration.orientation == Configuration.ORIENTATION_LANDSCAPE) {
+            //land
+        } else if (this.resources.configuration.orientation == Configuration.ORIENTATION_PORTRAIT) {
+            //port
+        }
+    }*/
 
     companion object {
         private val PERM_SETTING_APPLY_CODE = 10
